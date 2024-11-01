@@ -61,7 +61,7 @@ cat nillion/accuser/credentials.json
 
 ## Run Verifier
 ```
-docker run -d -v ./nillion/verifier:/var/tmp nillion/verifier:v1.0.1 verify --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com"
+docker run -v ./nillion/verifier:/var/tmp nillion/verifier:v1.0.1 verify --rpc-endpoint "https://nillion-testnet.rpc.kjnodes.com"
 ```
 
 
